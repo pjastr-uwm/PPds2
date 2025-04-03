@@ -10,7 +10,7 @@ int applyCondition(int (*condition)(int), int (*action)(int), int value){
 }
 
 int cond1(int x){
-    return x%2==1;
+    return x%2;
 }
 
 int cond2(int x){
