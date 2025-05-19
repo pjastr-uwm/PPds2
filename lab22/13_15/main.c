@@ -44,6 +44,5 @@ int main()
         increaseUsage(c1);
         showComputer(*c1);
     }
-
     return 0;
 }
