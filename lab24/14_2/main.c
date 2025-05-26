@@ -18,7 +18,7 @@ int main()
     list->next->next->next->next = NULL;
     struct element * ptr = list->next;
     while(ptr != NULL){
-        printf("%d\n", ptr->x);
+        printf("%p %d\n", ptr, ptr->x);
         ptr = ptr->next;
     }
     return 0;
